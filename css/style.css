@@ -1,0 +1,70 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+div ul li {
+  list-style-type: circle;
+}
+
+div ul li:hover {
+  background-color: lightseagreen;
+}
+
+.contact img,
+.main img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.lollipop img {
+  height: 120px;
+  width: 120px;
+  float: left;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid yellow;
+}
+
+.candy-floss img {
+  height: 120px;
+  width: 120px;
+  float: right;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid blue;
+}
+.jellybeans img {
+  height: 120px;
+  width: 120px;
+  float: left;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid rebeccapurple;
+}
+
+h1 {
+  background-color: blueviolet;
+}
+h2 {
+  color: rosybrown;
+  background-color: lightblue;
+}
+
+h3:hover {
+  background-color: yellow;
+}
+
+footer {
+  background-color: rgb(172, 172, 238);
+}
